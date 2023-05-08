@@ -1,2 +1,4 @@
-package com.ethnicthv.ex96;public class Classification {
+package com.ethnicthv.ex96.classification;
+
+public abstract class Classification {
 }

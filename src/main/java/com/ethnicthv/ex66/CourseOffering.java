@@ -7,7 +7,7 @@ public class CourseOffering {
 
     private final List<Schedule> schedules = new ArrayList<>();
 
-    private String courseName = "";
+    private String courseName;
 
     public CourseOffering(String courseName) {
         this.courseName = courseName;

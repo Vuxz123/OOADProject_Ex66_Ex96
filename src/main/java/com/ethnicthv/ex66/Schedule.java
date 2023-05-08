@@ -7,6 +7,7 @@ public class Schedule {
     private final PrimaryScheduleOfferingInfob.PSOIList primaryScheduleOfferingInfo = new PrimaryScheduleOfferingInfob.PSOIList();
     private final CourseOffering.COList alternateCourses = new CourseOffering.COList();
 
+    @SuppressWarnings("FieldCanBeLocal")
     private final UUID uuid;
 
     public Schedule() {

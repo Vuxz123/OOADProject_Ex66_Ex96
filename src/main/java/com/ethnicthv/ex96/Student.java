@@ -4,6 +4,7 @@ import com.ethnicthv.ex96.classification.Classification;
 import com.ethnicthv.ex96.classification.FulltimeClassification;
 import com.ethnicthv.ex96.classification.ParttimeClassification;
 
+@SuppressWarnings("CanBeFinal")
 public class Student {
     public String name;
     public String address;

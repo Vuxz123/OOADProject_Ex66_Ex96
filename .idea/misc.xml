@@ -1,5 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0">
+      <entry_point TYPE="field" FQNAME="com.ethnicthv.ex96.Student address" />
+      <entry_point TYPE="field" FQNAME="com.ethnicthv.ex96.ResidentInformation dorm" />
+      <entry_point TYPE="field" FQNAME="com.ethnicthv.ex96.classification.FulltimeClassification gradDate" />
+      <entry_point TYPE="field" FQNAME="com.ethnicthv.ex66.CourseOffering.S MATH" />
+      <entry_point TYPE="field" FQNAME="com.ethnicthv.ex96.classification.ParttimeClassification maxNumCourses" />
+      <entry_point TYPE="field" FQNAME="com.ethnicthv.ex96.Student name" />
+      <entry_point TYPE="field" FQNAME="com.ethnicthv.ex66.CourseOffering.S PHYSIC" />
+      <entry_point TYPE="field" FQNAME="com.ethnicthv.ex96.ResidentInformation room" />
+      <entry_point TYPE="field" FQNAME="com.ethnicthv.ex96.ResidentInformation roomKeyID" />
+      <entry_point TYPE="field" FQNAME="com.ethnicthv.ex96.Student studentID" />
+      <entry_point TYPE="field" FQNAME="com.ethnicthv.ex66.Schedule uuid" />
+    </entry_points>
+    <pattern value="com.ethnicthv.ex66.Schedule" method="addCourseOffering" />
+    <pattern value="com.ethnicthv.ex96.classification.Classification" />
+    <pattern value="com.ethnicthv.ex66.CourseOffering.COList" />
+    <pattern value="com.ethnicthv.ex66.CourseOffering.COList" method="COList" />
+    <pattern value="com.ethnicthv.ex66.CourseOffering" />
+    <pattern value="com.ethnicthv.ex66.CourseOffering" method="CourseOffering" />
+    <pattern value="com.ethnicthv.ex96.classification.FulltimeClassification" />
+    <pattern value="com.ethnicthv.ex96.classification.FulltimeClassification" method="FulltimeClassification" />
+    <pattern value="com.ethnicthv.ex96.Student" method="getClassification" />
+    <pattern value="com.ethnicthv.ex66.CourseOffering" method="getCourseName" />
+    <pattern value="com.ethnicthv.ex66.PrimaryScheduleOfferingInfob" method="getGrade" />
+    <pattern value="com.ethnicthv.ex66.PrimaryScheduleOfferingInfob.PSOIList" method="getPrimaryScheduleOfferingInfobList" />
+    <pattern value="com.ethnicthv.ex66.Schedule" method="getPSOIOf" />
+    <pattern value="com.ethnicthv.ex96.Student" method="getResidentInformation" />
+    <pattern value="com.ethnicthv.ex66.CourseOffering" method="getSchedules" />
+    <pattern value="com.ethnicthv.ex66.Schedule" method="hasAnyCourseOffering" />
+    <pattern value="com.ethnicthv.ex66.CourseOffering" method="hasAnySchedule" />
+    <pattern value="com.ethnicthv.ex96.classification.ParttimeClassification" />
+    <pattern value="com.ethnicthv.ex96.ResidentInformation" />
+    <pattern value="com.ethnicthv.ex66.PrimaryScheduleOfferingInfob" method="isCommitted" />
+    <pattern value="com.ethnicthv.ex66.PrimaryScheduleOfferingInfob" method="isEnrolled" />
+    <pattern value="com.ethnicthv.ex96.Student" method="isFulltime" />
+    <pattern value="com.ethnicthv.ex96.Student" method="isParttime" />
+    <pattern value="com.ethnicthv.ex66.PrimaryScheduleOfferingInfob" method="markCommitted" />
+    <pattern value="com.ethnicthv.ex66.PrimaryScheduleOfferingInfob" method="markEnrolled" />
+    <pattern value="com.ethnicthv.ex66.PrimaryScheduleOfferingInfob" />
+    <pattern value="com.ethnicthv.ex66.PrimaryScheduleOfferingInfob" method="PrimaryScheduleOfferingInfob" />
+    <pattern value="com.ethnicthv.ex66.PrimaryScheduleOfferingInfob.PSOIList" />
+    <pattern value="com.ethnicthv.ex66.PrimaryScheduleOfferingInfob.PSOIList" method="PSOIList" />
+    <pattern value="com.ethnicthv.ex66.CourseOffering.S" />
+    <pattern value="com.ethnicthv.ex66.Schedule" />
+    <pattern value="com.ethnicthv.ex66.Schedule" method="Schedule" />
+    <pattern value="com.ethnicthv.ex96.Student" method="setClassification" />
+    <pattern value="com.ethnicthv.ex66.PrimaryScheduleOfferingInfob" method="setGrade" />
+    <pattern value="com.ethnicthv.ex96.Student" method="setResidentInformation" />
+    <pattern value="com.ethnicthv.ex96.Student" />
+    <pattern value="com.ethnicthv.ex96.Student" method="Student" />
+  </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">
